@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Board Craft 보드크래프트",
+  "short_name": "보드크래프트",
+  "description": "오목·오델로·장기·체스·알까기·맞고·윷놀이·주사위 8가지 보드게임",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#15100b",
+  "theme_color": "#15100b",
+  "categories": ["games"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

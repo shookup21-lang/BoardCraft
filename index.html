@@ -12,7 +12,10 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-180.png">
-<style id="bc-common-css">:root{
+<style id="bc-common-css">html,body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+input,textarea,[contenteditable="true"]{-webkit-user-select:text;user-select:text}
+button,a,.bc-btn,canvas{touch-action:manipulation}
+:root{
 --bc-bg0:#15100b; --bc-bg1:#241a11;
 --bc-card0:#2c2114; --bc-card1:#1a130b;
 --bc-panel:rgba(28,22,15,.72); --bc-line:rgba(233,196,106,.20);

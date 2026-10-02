@@ -3,7 +3,7 @@
    - 아이콘·manifest: 저장본 우선
    - 새 버전을 올리면 다음 실행 때 네트워크에서 새 index.html 을 받아 저장본도 갱신된다.
    - 주소 하위 경로(예: https://아이디.github.io/BoardCraft/)에서도 동작하도록 모든 경로는 상대 경로. */
-const VERSION = 'bc-29';
+const VERSION = 'bc-30';
 const CACHE = 'boardcraft-' + VERSION;
 const CORE = ['./', './index.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png', './maskable-192.png', './maskable-512.png', './apple-180.png'];

@@ -16,5 +16,19 @@
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
     { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "맞고", "short_name": "맞고", "url": "./#matgo", "icons": [{ "src": "sc-matgo.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "오목", "short_name": "오목", "url": "./#omok", "icons": [{ "src": "sc-omok.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "장기", "short_name": "장기", "url": "./#janggi", "icons": [{ "src": "sc-janggi.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "윷놀이", "short_name": "윷놀이", "url": "./#yut", "icons": [{ "src": "sc-yut.png", "sizes": "192x192", "type": "image/png" }] }
+  ],
+  "screenshots": [
+    { "src": "shot-home.webp", "sizes": "780x1688", "type": "image/webp", "form_factor": "narrow", "label": "홈 화면 — 8가지 보드게임과 오늘의 도전" },
+    { "src": "shot-matgo.webp", "sizes": "780x1688", "type": "image/webp", "form_factor": "narrow", "label": "맞고 — 큰 카드와 월 숫자" },
+    { "src": "shot-omok.webp", "sizes": "780x1688", "type": "image/webp", "form_factor": "narrow", "label": "오목 — 렌주룰, 1~10단계 컴퓨터" },
+    { "src": "shot-yut.webp", "sizes": "780x1688", "type": "image/webp", "form_factor": "narrow", "label": "윷놀이 — 전통 멍석 윷판" },
+    { "src": "shot-alkkagi.webp", "sizes": "780x1688", "type": "image/webp", "form_factor": "narrow", "label": "알까기 — 15가지 맵" },
+    { "src": "shot-home-wide.webp", "sizes": "1688x780", "type": "image/webp", "form_factor": "wide", "label": "가로 화면 홈" }
   ]
 }
